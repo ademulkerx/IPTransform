@@ -22,7 +22,7 @@ namespace IPTransform
             CheckForIllegalCrossThreadCalls = false;
 
             NetworkChange.NetworkAddressChanged += new NetworkAddressChangedEventHandler(NetworkAddressChangedCallback);
-            UpdateNetworkList();
+            UpdateNetworkList();// ikinci deneme
         }
 
 
